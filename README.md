@@ -79,7 +79,13 @@ An **expiresAt** key is attached to every successful booking which is the time 8
 Ticket timing can be updated by giving a GET request to ` ticket/<id> ` route without any parameters.<br />
 
 #### Example
-![]("./images/deleteTicket.png")
+![](./images/deleteTicket.png)
+
+### Get All tickets
+To get detail of all tickets, give a GET request to ` tickets/ ` route.<br />
+
+#### Example
+![](./images/getAllTickets.png)
 
 ### Get ticket details by ID
 To get detail of a particular ticket, give a GET request to ` ticket/<id> ` route.<br />
