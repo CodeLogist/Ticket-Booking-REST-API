@@ -89,21 +89,21 @@ To get detail of a particular ticket, give a GET request to ` ticket/<id> ` rout
 }
 ```
 #### Example
-![]("./images/getUserDetailFromTicketID.png")
+![](./images/getUserDetailFromTicketID.png)
 
 ### Get ticket details by Timing
 To get detail of all the tickets for particular time, give a GET request to ` /tickets/<time> ` route.<br />
 
 #### Example
-![]("./images/getAllTicketsOnParticularTime.png")
+![](./images/getAllTicketsOnParticularTime.png)
 
 ### Deleting a ticket
 Tickets can be deleted by giving a DELETE request to ` /ticket/<id> ` route with following parameters.<br />
 
 #### Example
-![]("./images/deleteTicket.png")
+![](./images/deleteTicket.png)
 
 ## Testing
 Unit tests have been written and tested for all these cases. All the test related code can be found in ` test.py ` file. Below is the test report.<br/>
 <br />
-![]("./images/unitTestResult.png")
+![](./images/unitTestResult.png)
