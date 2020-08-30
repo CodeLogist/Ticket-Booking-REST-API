@@ -72,7 +72,7 @@ The format for timing is HH:MM. For example, to be book ticket for 7:00PM, the t
 ```
 An **expiresAt** key is attached to every successful booking which is the time 8 hours from the ticket time. The ticket is automatically marked expired and deleted when current time reaches expiresAt.
 #### Example
-![]("./images/ticketBooking.png")
+![](./images/ticketBooking.png)
 
 
 ### Updating ticket timing
